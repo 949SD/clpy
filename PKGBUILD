@@ -1,7 +1,7 @@
 # Maintainer: David K david.dk949@gmail.com
 pkgname=clpy
-pkgver=unknown
-pkgrel=0
+pkgver=v1.0.1
+pkgrel=1
 pkgdesc="A wrapper for python allowing it to be used like awk or sed."
 arch=('any')
 url="https://github.com/dk949/$pkgname"
@@ -18,7 +18,7 @@ pkgver() {
 
 build() {
     cd "$pkgname"
-    make
+    make -j
 }
 
 package() {
