@@ -1,7 +1,7 @@
 # Maintainer: David K david.dk949@gmail.com
 pkgname=clpy
-pkgver=v1.0.1
-pkgrel=1
+pkgver=unknown
+pkgrel=0
 pkgdesc="A wrapper for python allowing it to be used like awk or sed."
 arch=('any')
 url="https://github.com/dk949/$pkgname"
